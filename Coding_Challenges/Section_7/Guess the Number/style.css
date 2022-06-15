@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: #eee;
+  background-color: #222;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+}
+.right{
+    margin-right: 4%;
+}
+input {
+  margin-left: 7%;
+  width: 35%;
+  padding: 8%;
+}
+.right p {
+  margin-top: 15%;
+  font-size: 20px;
+}
+.message {
+  margin-top: 0%;
+  margin-bottom: 30%;
+}
+.between {
+  float: right;
+}
+header h1 {
+  position: relative;
+  top: 43%;
+  left: 43%;
+}
+.number {
+  position: relative;
+  top: 51%;
+  left: 45%;
+  height: 48%;
+  width: 11%;
+  background-color: #eee;
+  color: #222;
+  text-align: center;
+}
+.number h2 {
+  position: relative;
+  top: 35%;
+  font-size: 35px;
+}
+.btn {
+  width: 10%;
+  height: 15%;
+}
+.check {
+  margin-top: 10%;
+  margin-left: 7%;
+  width: 35%;
+  padding: 2%;
+}
+
+.again {
+  position: relative;
+  top: 5%;
+  left: 2%;
+}
